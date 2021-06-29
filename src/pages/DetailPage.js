@@ -10,7 +10,7 @@ function DetailPage(props) {
   useEffect(() => {
     getData();
     getCollection();
-  }, [1]);
+  });
 
   const getData = () => {
     axios
