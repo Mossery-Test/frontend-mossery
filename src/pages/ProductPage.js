@@ -3,25 +3,11 @@ import React, { useEffect, useState } from "react";
 import axios from "configs/axios";
 
 function ProductPage(props) {
-  const name = [
-    "John",
-    "Abigail",
-    "X Æ A-Xii",
-    "Beyonce",
-    "Khloe Kardashian",
-    "George Bush",
-    "Queen Elizabeth",
-    "Yeezy",
-    "Ivanka Trump",
-    "Leonardo DiCaprio",
-  ];
-  const [searchTerm, setSearchTerm] = useState("");
   const [callBack, setCallBack] = useState("");
   const [data, setData] = useState([]);
 
   useEffect(() => {
     getProduct();
-    // filter();
   });
 
   const handleCallBack = (childData) => {
