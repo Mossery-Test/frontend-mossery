@@ -24,7 +24,7 @@ function Header(props) {
               } items-center justify-center md:visible md:flex-row md:bg-transparent md:relative md:opacity-100`}
             >
               <li className="mx-3 py-6 md:py-0">
-                <a href="/" className="text-black hover:text-white">
+                <a href="/showcase" className="text-black hover:text-white">
                   Showcase
                 </a>
               </li>

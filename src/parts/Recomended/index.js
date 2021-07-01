@@ -16,7 +16,7 @@ function Recomended(props) {
                 <div className="rounded-xl p-4 pb-8 relative bg-white">
                   <div className="rounded-xl overflow-hidden card-shadow w-full h-48">
                     <img
-                      src={`${process.env.REACT_APP_HOST}/${item.imageUrl}`}
+                      src={`${process.env.REACT_APP_CLOUD}/${item.imageUrl}`}
                       alt="alt-chair"
                       className="w-full h-full object-cover object-center"
                     />

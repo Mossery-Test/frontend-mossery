@@ -29,7 +29,7 @@ function BrowseRoom(props) {
                         >
                           <div className="card-shadow rounded-xl">
                             <img
-                              src={`${process.env.REACT_APP_HOST}/${item.imageUrl}`}
+                              src={`${process.env.REACT_APP_CLOUD}/${item.imageUrl}`}
                               alt="alt-catalog"
                               className="h-full w-full object-cover overflow-hidden overlay rounded-xl"
                             />
@@ -53,7 +53,7 @@ function BrowseRoom(props) {
                         <div className="relative col-span-9 row-span-1 md:col-span-2 md:row-span-2 card ">
                           <div className="card-shadow rounded-xl">
                             <img
-                              src={`${process.env.REACT_APP_HOST}/${item.imageUrl}`}
+                              src={`${process.env.REACT_APP_CLOUD}/${item.imageUrl}`}
                               alt="alt-catalog"
                               className="h-full w-full object-cover overflow-hidden overlay rounded-xl"
                             />
@@ -77,7 +77,7 @@ function BrowseRoom(props) {
                         <div className="relative col-span-9 row-span-1 md:col-span-3 md:row-span-2 card ">
                           <div className="card-shadow rounded-xl">
                             <img
-                              src={`${process.env.REACT_APP_HOST}/${item.imageUrl}`}
+                              src={`${process.env.REACT_APP_CLOUD}/${item.imageUrl}`}
                               alt="alt-catalog"
                               className="h-full w-full object-cover overflow-hidden overlay rounded-xl"
                             />
@@ -104,7 +104,7 @@ function BrowseRoom(props) {
                         >
                           <div className="card-shadow rounded-xl">
                             <img
-                              src={`${process.env.REACT_APP_HOST}/${item.imageUrl}`}
+                              src={`${process.env.REACT_APP_CLOUD}/${item.imageUrl}`}
                               alt="alt-catalog"
                               className="h-full w-full object-cover overflow-hidden overlay rounded-xl"
                             />

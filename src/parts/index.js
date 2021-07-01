@@ -6,6 +6,7 @@ import Header from "./Header";
 import Hero from "./Hero";
 import Video from "./Video";
 import Recomended from "./Recomended";
+import Product from "./Product";
 
 export {
   Header,
@@ -16,4 +17,5 @@ export {
   Breadcrumb,
   Details,
   Recomended,
+  Product,
 };

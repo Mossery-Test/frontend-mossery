@@ -14,7 +14,7 @@ function Details(props) {
             <div className="preview">
               <div className="item rounded-lg h-full overflow-hidden">
                 <img
-                  src={`${process.env.REACT_APP_HOST}/${data.imageUrl}`}
+                  src={`${process.env.REACT_APP_CLOUD}/${data.imageUrl}`}
                   alt=""
                   className="object-cover w-full h-full rounded-lg"
                 />
